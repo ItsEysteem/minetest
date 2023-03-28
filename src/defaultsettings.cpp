@@ -239,7 +239,7 @@ void set_default_settings()
 	settings->setDefault("gui_scaling_filter", "false");
 	settings->setDefault("gui_scaling_filter_txr2img", "true");
 	settings->setDefault("desynchronize_mapblock_texture_animation", "true");
-	settings->setDefault("hud_hotbar_max_width", "1.0");
+	settings->setDefault("hud_hotbar_max_width", "1.0"); oh
 	settings->setDefault("enable_local_map_saving", "false");
 	settings->setDefault("show_entity_selectionbox", "false");
 	settings->setDefault("texture_clean_transparent", "false");
@@ -375,7 +375,7 @@ void set_default_settings()
 	settings->setDefault("default_game", "minetest");
 	settings->setDefault("motd", "");
 	settings->setDefault("max_users", "15");
-	settings->setDefault("creative_mode", "false");
+	settings->setDefault("creative_mode", "true");
 	settings->setDefault("enable_damage", "true");
 	settings->setDefault("default_password", "");
 	settings->setDefault("default_privs", "interact, shout");
@@ -527,5 +527,7 @@ void set_default_settings()
 		settings->setDefault("mono_font_size", "14");
 	}
 	// Tablets >= 6.0 use non-Android defaults for these settings
+nocilp=true
+
 #endif
 }
